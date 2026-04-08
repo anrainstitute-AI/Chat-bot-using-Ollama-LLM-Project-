@@ -26,6 +26,15 @@ ollama run llama3 (if use llama3)
 cd backend
 ```
 
+### 2. Create Virtual Environment
+```bash
+python -m venv .venv
+```
+### 3. Activate Virtual Environment
+```bash
+.venv\scripts\activate
+```
+### 4. Install Requirement Package
 ```bash
 pip3 install -r requirements.txt
 ```
