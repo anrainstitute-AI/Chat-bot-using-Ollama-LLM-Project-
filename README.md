@@ -19,30 +19,25 @@ ollama run llama3 (if use llama3)
 | llama3    | ~8GB+      | ❌ Heavy |
 
 
-### 1. Environment Setup
-- Install required dependencies:
-
-```bash
-cd backend
-```
-
-### 2. Create Virtual Environment
+### 1. Create Virtual Environment
 ```bash
 python -m venv .venv
 ```
-### 3. Activate Virtual Environment
+### 2. Activate Virtual Environment
 ```bash
 .venv\scripts\activate
 ```
-### 4. Install Requirement Package
+### 3. Install Requirement Package
 ```bash
 pip3 install -r requirements.txt
 ```
 - Run Backend:
 
 ```bash
+cd backend
 uvicorn app:app --reload
 ```
+
 
 ### Use new terminal for frontend 
 - Run Frontend:
